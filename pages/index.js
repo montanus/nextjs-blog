@@ -11,7 +11,7 @@ import * as XLSX from 'xlsx';
 export default function Home({ allPostsData }) {
   console.log(XLSX)
   async function downloadExcel () {
-    const user = await fetch(`http://localhost:3000/api/hello`);
+    const user = await fetch(`/api/hello`);
     const dah = await user.json();
 console.log(dah)
 
