@@ -3,14 +3,23 @@
 const data =  [
   {
   "id": 1,
-  "temaIndicador": "doug",
-  "codigo": "001",
-  "observaciones": "Interactions Specialist tertiary Regional Tennessee",
-  "activo": "SI",
-  "urlImagen": "http://placeimg.com/640/480",
-  "color": "cyan",
-  "createdAt": "2022-01-26T18:48:36.002Z"
-}]
+  "status": "online",
+  "isbn10": "9780323082990",
+  "isbn13": "9780323082990000",
+  "eisbn": "http://placeimg.com/640/480",
+  "title": "Nuclear Medicine",
+  "publisher": "Elsevier Health Sciences"
+},
+{
+  "id": 1,
+  "status": "online",
+  "isbn10": "9780323082991",
+  "isbn13": "9780323082991000",
+  "eisbn": "http://placeimg.com/640/480",
+  "title": "Nuclear Medicine 2",
+  "publisher": "Elsevier Health Sciences"
+}
+]
 
 
 
